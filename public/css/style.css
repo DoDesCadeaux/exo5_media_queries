@@ -1,0 +1,68 @@
+@media screen and (min-width:1024px) {
+    .carre1 {
+        width: 33.3%;
+        height: 100px;
+        margin-top:2px;
+        background-color: red;
+    }
+
+    .carre2 {
+        width: 33.3%;
+        height: 100px;
+        margin-top:2px;
+        background-color: green;
+    }
+
+    .carre3 {
+        width: 33.3%;
+        height: 100px;
+        margin-top:2px;
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:1024px) {
+    .carre1 {
+        width: 50%;
+        height: 100px;
+        margin-top:2px;
+        background-color: blue;
+    }
+
+    .carre2 {
+        width: 50%;
+        height: 100px;
+        margin-top:2px;
+        background-color: black;
+    }
+
+    .carre3 {
+        width: 50%;
+        height: 100px;
+        margin-top:2px;
+        background-color: lime;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:600px) {
+    .carre1 {
+        width: 100%;
+        height: 100px;
+        margin-top:2px;
+        background-color: gray;
+    }
+
+    .carre2 {
+        width: 100%;
+        height: 100px;
+        margin-top:2px;
+        background-color: red;
+    }
+
+    .carre3 {
+        width: 100%;
+        height: 100px;
+        margin-top:2px;
+        background-color: purple;
+    }
+}
